@@ -13,6 +13,7 @@ To build the program:
 mvn compile
 ```
 
+To run the program:
 ```bash
 mvn exec:java -Dexec.mainClass="com.example.HelloWorld" -Dexec.args="output.txt \"Your message here\""
 ```
